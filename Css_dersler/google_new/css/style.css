@@ -1,0 +1,157 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 15%;
+    float: right;
+    color: white;
+    margin-top: 2%;
+}
+
+.header-box1 {
+    float: left;
+    padding-right: 6%;
+    margin-top: 3%;
+}
+
+.header-box1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-box1 a:hover {
+    text-decoration:underline;
+}
+
+.header-box2 {
+    float: left;
+    padding-right: 6%;
+    margin-top: 3%;
+}
+
+.header-box2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-box2 a:hover {
+    text-decoration:underline;
+}
+
+.header-box3 {
+    width: 7%;
+    float: left;
+    margin-top: 3%;
+    margin-right: 4%;
+}
+
+
+.header-box4 {
+    width: 10%;
+    float: left;
+    margin-left: 5%;
+}
+
+.header-box4 img {
+    border-radius:14px;
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    
+    margin-top: 7%;
+}
+
+.google-logo img {
+    display: block;
+    margin: auto;
+}
+
+.back-box {
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2.3% 0 2.3% 0;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.search-logo {
+    margin-top: -2%;
+    margin-left: 3%;
+    float: left;
+}
+
+.search-text {
+    margin-top: -3%;
+    margin-left: 1%;
+    width: 70%;
+    float: left;
+}
+
+.search-text input {
+    border:0;
+    padding: 2%;
+}
+
+
+.voice-logo {
+    margin-left: 14.5%;
+    margin-top: -2%;
+    float: left;
+}
+
+footer {
+
+    width: 35%;
+    margin: auto;
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+
+footer div:hover {
+    background: rgb(229,229,229);
+    background: -moz-linear-gradient(top, rgb(229,229,229) 0%, rgb(229,229,229) 100%, rgb(229,229,229) 100%);
+    background: -webkit-linear-gradient(top, rgb(229,229,229) 0%, rgb(229,229,229) 100%, rgb(229,229,229) 100%);
+    background: linear-gradient(to bottom, rgb(229,229,229) 0%, rgb(229,229,229) 100%, rgb(229,229,229) 100%);
+    border-radius: 10px;
+}
+
+.translate-shortcut {
+    width: 20%;
+    float: left;
+    padding: 1%;
+}
+
+.reddit-shortcut {
+    float: left;
+    padding: 1%;
+    width: 20%;
+}
+
+.youtube-shortcut {
+    float: left;
+    padding: 1%;
+    width: 20%;
+}
+
+.twitch-shortcut {
+    float: left;
+    padding: 1%;
+    width: 20%;
+}
+
+.w3schools-shortcut {
+    float: left;
+    margin: auto;
+    padding: 1%;
+    width: 20%;
+}
+
+
