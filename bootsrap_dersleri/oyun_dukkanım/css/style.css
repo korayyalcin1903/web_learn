@@ -1,0 +1,15 @@
+body {
+    background-color: #E9ECEF !important;
+}
+
+.game-list{
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.games {
+    margin-left: 10% !important;
+}
