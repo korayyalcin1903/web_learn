@@ -1,0 +1,34 @@
+a {
+    text-decoration: none !important;
+    
+}
+
+nav {
+    background-color: white;
+    position:fixed !important;
+    z-index: 1 !important;
+    display: block;
+    width: 100%;
+    top: 0px !important;
+    display: block !important;
+}
+
+body {
+    background-color: #fafafa !important;
+}
+
+.search {
+    background-color: #efefef!important;
+    border-radius: 6px;
+}
+
+.yorum {
+    width: 96% !important;
+}
+
+.story-border {
+    border-color: rgb(255, 0, 106) !important;
+    border-style: solid !important;
+    border-radius: 50% !important;
+    border: 3px;
+}
