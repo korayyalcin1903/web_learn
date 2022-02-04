@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" id="favicon-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>Linkedln</title>
+    
+    <style>
+        @media screen and (max-width:500px) and (min-width:100px) {
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="margin: 0;padding: 0;"> <!--NAvbar-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-1 d-none d-sm-block d-md-block pt-1 mb-2"> <!--Navbar Logo-->
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" width="100%" alt=""></a>
+                </div>
+                <div class="col-2 d-block d-sm-none d-md-none ml-3 pt-2">   
+                    <a class="navbar-brand" href="#"><img src="img/logo-mobile.png" width="40em" alt=""></a>
+                </div>
+                <div class="col-sm-3 col-md-4 mt-2 d-none d-sm-block d-md-block" style="margin-left: -4%;"><!--Navbar Search-->
+                  <div class="d-flex form-inputs"><i class="fas fa-search text-secondary"></i><input class="form-control" type="text" placeholder="Arama Yap" style="background-color: #eef3f8;"></div>
+                </div>
+
+                <button class="navbar-toggler" style="margin-left: 80%;position:absolute; margin-top: 3%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse navbar col-sm-4 col-md-4 col-8 offset-0 offset-md-3 offset-sm-3" id="navbarSupportedContent">
+                  <ul class="navbar-nav" style="margin-top: -10px;"> <!--Navbar Menu-->
+                    <li class="nav-item active menu-li ml-2">
+                      <a class="nav-link" href="#"><i class="bi bi-house-door fa-lg ml-3"></i><p>Anasayfa</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2">
+                      <a class="nav-link" href="#"><i class="bi bi-people-fill fa-lg ml-1"></i><p>Ağım</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2">
+                        <a class="nav-link" href="#"><i class="bi bi-briefcase-fill fa-lg ml-2"></i><p>İş ilanları</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2">
+                        <a class="nav-link" href="#"><i class="bi bi-chat-dots-fill fa-lg ml-3"></i><p>Mesaşlaşma</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2">
+                        <a class="nav-link" href="#"><i class="bi bi-bell-fill fa-lg ml-3"></i><p>Bildirimler</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2 pr-3" style="border-right: 1px rgba(128, 128, 128, 0.329) solid;">
+                        <a class="nav-link" href="#"><img src="img/profile.jfif" class="w-75 rounded-circle" alt=""><p>Ben</p></a>
+                    </li>
+                    <li class="nav-item menu-li ml-2">
+                        <a class="nav-link" href="#"><i class="bi bi-three-dots fa-lg ml-3"></i><p>Daha Fazla</p></a>
+                    </li>
+                  </ul>
+                </div>
+        </div>
+        </div>
+      </nav>
+
+      <section class="container mt-5 pt-4 pt-sm-5 pt-md-5 section mb-3">
+        <div class="row">
+          <article class="col-sm-3 col-md-2 col-12 rounded mb-3 mr-0 mr-md-3" style="padding: 0;"> <!--Left-->
+            <div class="border bg-light" style="border-radius: 10px;">
+              <div>
+                <img src="img/profile-background.jfif" class="w-100 rounded" alt="">
+                <div class="offset-5">
+                <img src="img/profile.jfif" class="rounded-circle" style="margin-top: -20%;width: 40%;" alt="">
+                </div>
+                <div class="pt-3 border-bottom">
+                  <h6 class="text-center">Koray Yalçın</h6>
+                  <p class="text-center">--</p>
+                </div>
+
+                <div>
+
+                  <div style="border-radius: 30px !important; font-size: 90%;" class="d-none d-sm-block d-md-block">
+                    <div class="border-bottom pt-1 pl-2">
+                      <div class="row">
+                        <div class="col-9">
+                        <p class="text-secondary">bağlantı</p>
+                        <p>İletişim ağınızı büyütün</p>
+                        </div>
+                        <div class="col-2 mt-3 ">
+                          <i class="bi bi-person-plus-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="border-bottom pt-1 pl-2">
+                      <p class="text-secondary">Özel araç ve içgörülere erişin</p>
+                      <p><button type="button" class="btn btn-warning "></button>Premium’u ücretsiz deneyin</p>
+                  </div>
+
+                    <div class="pt-2 pl-2">
+                      <div class="row">
+                      <i class="col-2 fas fa-bookmark fa-lg text-secondary mt-1"></i>
+                      <p>Öğelerim</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border bg-light mt-3 d-none d-sm-block d-md-block" style="border-radius: 10px;">
+              <div class="">
+                <a href="" class="mx-2 mt-2">Gruplar</a>
+                <div class="row">
+                <a href="" class="m-2 col-8">Etkinlikler</a>
+                <i class="bi bi-plus fa-lg col-2 mt-2"></i>
+                </div>
+                <a href="" class="px-2 pb-2 border-bottom">Takip Edilen Hastagler</a>
+              </div>
+                <h6 class="text-secondary my-3 text-center">Daha Fazla Keşfet</h6>
+            </div>
+
+            <a href="">
+              <h6 class="text-secondary mt-4 text-center d-block d-sm-none d-md-none">Daha Fazla Keşfet
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                  <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                </svg>
+              </h6>
+            </a>
+
+          </article>
+
+          <article class="col-sm-5 col-md-6 col-12 ml-0 mr-sm-3 mr-md-3" style="padding: 0;border-radius: 10px;"><!--Center-->
+            <div>
+              <div class="bg-light border" style="border-radius: 10px;">  <!--Top-->
+                <div class="row"> 
+                  
+                  <div class="col-sm-2 col-md-2 col-2 m-2"><img src="img/profile.jfif" class="rounded-circle w-75" alt=""></div>
+                  <div class="col-sm-9 col-md-9 col-9 mt-1"><button type="button" class="btn btn-outline-secondary col-sm-12 text-left p-2 mt-2" style="border-radius: 30px;margin-left: -6% !important;">Gönderi hazırla</button></div>
+                </div>
+                <div class="row">
+                  <button aria-label="Fotoğraf ekle" id="ember1121" class="ml-3 ml-sm-5 ml-md-5 py-2 px-4 mb-1 post-share-button">  <li-icon aria-hidden="true" type="image-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path class="text-primary" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
+                  </svg></li-icon>
+                  
+                  <span class="artdeco-button__text">
+                      Fotoğraf
+                  </span></button>
+
+                  <button aria-label="Video ekle" id="ember1122" class=" py-2 px-4 mb-1 post-share-button">  <li-icon aria-hidden="true" type="video-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path class="text-success" d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                  </svg></li-icon>
+                  
+                  <span class="artdeco-button__text">
+                      Video
+                  </span></button>
+
+                  <button href="/feed/?createEvent=true" id="ember1123" class="py-2 px-4 mb-1 post-share-button" aria-label="Bir etkinlik oluştur">
+                    <li-icon aria-hidden="true" type="calendar-icon" size="medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path class="text-warning" d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"></path>
+                 </svg></li-icon>
+                    <span class="share-box-feed-entry-toolbar__item-text">
+                      Etkinlik
+                    </span>
+                  </button>
+
+                  <button href="/post/new/" id="ember1124" class="py-2 px-4 post-share-button mb-1 offset-4 offset-md-0 offset-sm-0" aria-label="LinkedIn’de bir yazı yazın">
+                    <li-icon aria-hidden="true" type="content-left-align-icon" size="medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path class="text-danger" d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+                  </svg></li-icon>
+                    <span class="share-box-feed-entry-toolbar__item-text">
+                      Yazı yaz
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+              
+              <div>
+                <div class="row">
+                  <div class="col-sm-8 col-md-8 col-8 py-0">
+                    <h6 class="text-secondary pl-3 pt-3 pt-sm-5 pt-md-5">Tekrar hoş geldiniz!</h6>
+                    <h6 class="pl-3" style="font-size: 150% !important;">Akışınızda yeni bakış açılarına yer verin</h6>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-4">
+                    <img src="img/main-image.png" class="w-100 pt-1" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="px-3 pt-3 mb-2 bg-light" style="border-radius: 10px;"> <!--Blog 1-->
+                <div class="row">
+                  <div class="col-sm-2 col-md-2 col-2">
+                    <img src="img/profile.jfif" class="rounded-circle w-100" alt="">
+                  </div>
+                  <div class="col-sm-8 col-md-7 col-6">
+                    <p>Koray Yalçın • </p>
+                    <p style="font-size:80%;margin-top:-5%;" class="text-secondary">Oyun Oynayarak Eğleniyorum</p>
+                    <p class="text-secondary" style="font-size:80%;margin-top:-5%;">7 saat • Düzenlendi • <i class="bi bi-globe"></i></p>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-4 mt-2">
+                    <a href="" class="ceviri-button px-2" style="font-size:130%;"> + Takip Et</a>
+                  </div>
+                </div>
+                <div style="margin-top:-1%;">
+                  <p>Need for Speed: Most Wanted, Criterion şirketi tarafından yapılan ve Electronic Arts tarafından dağıtılan, Need For Speed serisinin 2012 yazında piyasaya çıkarılan 19. bilgisayar oyunudur. Bu oyunun öncülleri Need for Speed: Shift, Shift 2: Unleashed ve Need for Speed: The Run'dur.
+                  </p>
+                </div>
+                <div>
+                  <img src="img/blog-3-img.jpg" class="w-100" alt="">
+                </div>
+                <div class="mt-2 border-bottom">
+                  <div class="row">
+                    <div class="col-sm-9 col-md-9 col-9">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-PRAISE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="celebrate" data-test-reactions-icon-type="PRAISE" data-test-reactions-icon-theme="light" style="margin-left: -2%;">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light" style="margin-left: -2%;">
+                  <a style="text-decoration: none !important;" class="text-secondary">1830</a>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-3 ">
+                    <p class="text-secondary">95 Yorum</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="row">
+                    <div>
+                      <button class="py-2 px-4 ml-3 like-button mb-2">
+                      <span class="artdeco-button__text">
+                      
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Beğen
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div>
+                      <button class="py-2 px-3 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Yorum Yap
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div>
+                      <button class="py-2 px-4 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Paylaş
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div class="offset-4 offset-md-0 offset-sm-0">
+                      <button class="py-2 px-4 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Gönder
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="px-3 pt-3 bg-light" style="border-radius: 10px;"> <!--Blog 2-->
+                <div class="row">
+                  <div class="col-sm-2 col-md-2 col-2">
+                    <img src="img/blog-profile-1.jfif" class="rounded-circle w-100" alt="">
+                  </div>
+                  <div class="col-sm-8 col-md-8 col-8">
+                    <p>Alemşah Öztürk • </p>
+                    <p style="font-size:80%;margin-top:-5%;" class="text-secondary d-none d-sm-block d-md-block">Chief Happiness Officer / CEO at 4129Grey, Mentor for startups, Keynote Speaker, Angel Investor</p>
+                    <p style="font-size:80%;margin-top:-5%;" class="text-secondary d-block d-sm-none d-md-none">Chief Happiness Officer / CEO at 4129Grey, Mentor...</p>
+                    <p class="text-secondary" style="font-size:80%;margin-top:-5%;">3 gün • <i class="bi bi-globe"></i></p>
+                  </div>
+                  <div class="col-sm-1 col-md-1 col-1">
+                    <i class="bi bi-three-dots fa-lg ml-3 text-secondary"></i>
+                  </div>
+                </div>
+                <div style="margin-top:-1%;">
+                  <p>We overestimate the returns (of our investments) in short time and we underestimate the returns in the long run. Actually, this is true for almost anything. The emotions, expectations we have can alter our logic & strategy for any long term investment. Apply this to make sure you invest in the right strategy.</p>
+                </div>
+                <div>
+                  <a href="" class="ceviri-button p-2"><strong>Çeviriyi gör</strong></a>
+                </div>
+                <div class="mt-2 border-bottom">
+                  <div class="row">
+                    <div class="col-sm-9 col-md-9 col-9">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-PRAISE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="celebrate" data-test-reactions-icon-type="PRAISE" data-test-reactions-icon-theme="light" style="margin-left: -2%;">
+                  <a style="text-decoration: none !important;" class="text-secondary">36</a>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-3 ">
+                    <p class="text-secondary">1 Yorum</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="row">
+                    <div class="col-sm-9 col-md-9 col-7">
+                      <p class="text-secondary" style="font-size: 110%;">Gönderilerini akışınızda görmek için Alemsah Ozturk adlı kişiyi takip edin</p>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-5">
+                      <button type="button" class="btn btn-outline-primary px-3" style="border-radius: 25px;"> + Takip Et</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="px-3 pt-3 mt-2 bg-light" style="border-radius: 10px;"> <!--Blog 3-->
+                <div class="row">
+                  <div class="col-sm-2 col-md-2 col-2">
+                    <img src="img/blog-profile-2.jfif" class="rounded-circle w-100" alt="">
+                  </div>
+                  <div class="col-sm-8 col-md-7 col-6">
+                    <p>HAKTAN MAZMANOĞLU • </p>
+                    <p style="font-size:80%;margin-top:-5%;" class="text-secondary d-none d-sm-block d-md-block">Takibinize geri takip ederek karşılık vereceğim. Bağlantı sınırından dolayı davet kabul edemiyorum. - Strateji</p>
+                    <p style="font-size:80%;margin-top:-5%;" class="text-secondary d-block d-sm-none d-md-none">Takibinize geri takip ederek karşılık vereceğim...</p>
+                    <p class="text-secondary" style="font-size:80%;margin-top:-5%;">7 saat • Düzenlendi • <i class="bi bi-globe"></i></p>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-4 mt-2">
+                    <a href="" class="ceviri-button px-2" style="font-size:130%;"> + Takip Et</a>
+                  </div>
+                </div>
+                <div style="margin-top:-1%;">
+                  <p>Bir millet düşünün ki; hiçbir değeri, kırmızı çizgisi olmasın!
+                    <br><br>
+                    Bir millet düşünün ki; kurucu babasının yasını tutmasın!
+                  </p>
+                </div>
+                <div>
+                  <img src="img/blog-2-img.jfif" class="w-100" alt="">
+                </div>
+                <div class="mt-2 border-bottom">
+                  <div class="row">
+                    <div class="col-sm-9 col-md-9 col-9">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-PRAISE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt="celebrate" data-test-reactions-icon-type="PRAISE" data-test-reactions-icon-theme="light" style="margin-left: -2%;">
+                  <img class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light" src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like" data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light" style="margin-left: -2%;">
+                  <a style="text-decoration: none !important;" class="text-secondary">758</a>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-3 ">
+                    <p class="text-secondary">28 Yorum</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <div class="row">
+                    <div>
+                      <button class="py-2 px-4 ml-3 like-button mb-2">
+                      <span class="artdeco-button__text">
+                      
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Beğen
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div>
+                      <button class="py-2 px-3 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Yorum Yap
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div>
+                      <button class="py-2 px-4 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Paylaş
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+
+                    <div class="offset-4 offset-md-0 offset-sm-0">
+                      <button class="py-2 px-4 ml-2 like-button mb-2">
+                      <span class="artdeco-button__text">
+    
+                      <div>
+                      <li-icon aria-hidden="true" type="like-icon" class="artdeco-button__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                        <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                      </svg></li-icon>  
+
+                     <span aria-hidden="true" class="artdeco-button__text react-button__text">
+                    Gönder
+                    </span>
+                    </div>
+  
+                      </span></button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </article>  
+
+          <article class="col-sm-3 col-md-3 col-12 d-none d-sm-block d-md-block" style="border-radius: 10px !important;padding: 0;"> <!--Right-->
+            <div class="px-2 border bg-light" style="border-radius: 10px;">
+            <div class="pt-3">
+              <h6>Akışınıza ekleyin
+                <li-icon aria-hidden="true" type="notify-pebble-icon" class="offset-5 text-secondary" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                  <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                </svg></li-icon>
+              </h6>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2 mt-2">
+                <img src="img/friend-add-1.jfif" class="rounded-circle" width="250%" alt="">
+              </div>
+              <div class="col-sm-8 mt-2 ml-2">
+                <h6>İlknur Uslu</h6>
+                <p style="font-size: 80%;" class="text-secondary">Psikolog / Yönetici Koçu / Eğitmen</p>
+                <button type="button" class="btn btn-outline-secondary container" style="border-radius: 25px;margin-top: -5%;"><strong> + Takip Et</strong></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2 mt-2">
+                <img src="img/friend-add-2.jfif" class="rounded-circle" width="250%" alt="">
+              </div>
+              <div class="col-sm-8 mt-2 ml-2">
+                <h6>Nuri Sevsem Gürvardar</h6>
+                <p style="font-size: 80%;" class="text-secondary">Kuleli Akademi şirketinde Eğitim Direktörü</p>
+                <button type="button" class="btn btn-outline-secondary container" style="border-radius: 25px;margin-top: -5%;"><strong> + Takip Et</strong></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2 mt-2">
+                <img src="img/friend-add-3.jfif" class="rounded-circle" width="250%" alt="">
+              </div>
+              <div class="col-sm-8 mt-2 ml-2">
+                <h6>Kariyer Hayalim</h6>
+                <p style="font-size: 80%;" class="text-secondary">Şirket • İnternet</p>
+                <button type="button" class="btn btn-outline-secondary container" style="border-radius: 25px;margin-top: -5%;"><strong> + Takip Et</strong></button>
+              </div>
+            </div>
+
+            <div>
+              <button href="" class="all-show-button mt-3"><h6 class="text-secondary p-1">Tüm tavsiyeleri görüntüle<i class="bi bi-arrow-right"></i></h6></button>
+            </div>
+            </div>
+
+            <div class="border mt-2 bg-light" style="border-radius: 10px;">
+              <div class="mx-1">
+                <img src="img/advertisment.jpg" class="w-100 rounded" alt="">
+              </div>
+            </div>
+
+            <footer class="ml-3 mt-3 text-center">
+              <a href="" class="text-secondary ml-2">Hakkında</a>
+              <a href="" class="text-secondary ml-2">Erişebilirlik</a>
+              <a href="" class="text-secondary ml-2">Yardım Merkezi</a>
+              <a href="" class="text-secondary ml-2">Gizlilik ve koşullar
+                <li-icon aria-hidden="true" type="chevron-down-icon" class="global-footer-dropdown__trigger-icon" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                  <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                </svg></li-icon>
+              </a>
+              <a href="" class="text-secondary ml-2">Reklam Tercihleri</a>
+              <a href="" class="text-secondary ml-2">Reklam</a>
+              <a href="" class="text-secondary ml-2">Ticari hizmetler
+                <li-icon aria-hidden="true" type="chevron-down-icon" class="global-footer-dropdown__trigger-icon" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                  <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                </svg></li-icon>
+              </a>
+              <a href="" class="text-secondary ml-2">LinkedIn uygulamasını yükle</a>
+              <a href="" class="text-secondary ml-2">Daha Fazla</a>
+              <p class="mt-2"><strong class="text-primary">Linked</strong><i class="bi bi-linkedin text-primary"></i>LinkedIn Corporation © 2022</p>
+            </footer>
+
+          </article>
+        </div>
+      </section>
+
+</body>
+</html>

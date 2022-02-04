@@ -1,0 +1,80 @@
+body {
+    background-color: #f3f2ef !important;
+}
+
+.menu-li {
+    height:50px;
+}
+
+.menu-li a p {
+    font-size: 80%;
+    width: 200%;
+}
+
+.section {
+    font-size:80% !important;
+}
+
+.ceviri-button {
+    text-decoration: none !important;
+    border-radius: 10px;
+}
+
+.ceviri-button:hover {
+    background-color: rgba(0, 0, 255, 0.041);
+}
+
+.form-inputs {
+    position: relative;
+    border:0;
+}
+
+.form-inputs .form-control {
+    height: 35px;
+    padding-left: 15%;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 0;
+}
+
+.form-inputs i {
+    position: absolute;
+    right: 90%;
+    top: 32%;
+}
+
+.post-share-button {
+    background-color: #f8f9fa;
+    border: 0;
+}
+
+.post-share-button:hover {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.like-button {
+    border: 0;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+.like-button:hover {
+    background-color: #dfdfdf;
+}
+
+.all-show-button {
+    text-decoration: none;
+    border: 0;
+    background-color: #f8f9fa;
+}
+
+.all-show-button h6:hover {
+    text-decoration: none;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}

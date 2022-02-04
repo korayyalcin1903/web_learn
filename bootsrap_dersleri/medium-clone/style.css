@@ -1,0 +1,45 @@
+body {
+    background-color: #c4e2ff;
+}
+
+.navbar-menu {
+    background-color: #c4e2ff;
+    border-bottom: 1px black solid;
+    font-family: "sans-serif" !important;
+}
+
+.menu-link-color {
+    color:black !important;
+}
+
+.get-started-button {
+    border:0px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.header {
+    border-bottom: 1px black solid;
+    font-family: "sans-serif" !important;
+    background-image: url('img/medium-header-high-quality.png');
+    background-size: 25% 80%;
+    background-repeat: no-repeat;
+    background-position: 80% 90%;
+}
+
+.start-writing-button {
+    border-bottom: 1px black solid;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.trend-blog {
+    border-bottom: 1px rgb(90, 90, 90) solid;
+}
+
+.blog-hastag {
+    border-radius: 20px;
+    border:0px;
+    font-size:80%;
+    height: 25px;
+}
