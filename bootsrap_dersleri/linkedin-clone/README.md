@@ -1,0 +1,1 @@
+![linkedin](C:\Users\RAGNAR\Desktop\linkedin.gif)
